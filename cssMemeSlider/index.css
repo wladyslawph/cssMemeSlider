@@ -21,13 +21,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 1em;
+    gap: 2em;
     margin: 2em;
 }
 .slider {
     display: flex;
     overflow-x: auto;
-    scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     border-radius: 0.5rem;
     max-height: 50%;
