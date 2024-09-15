@@ -42,7 +42,7 @@ body {
 }
 .meme__text {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 2vw;
     color: azure;
     flex: 0 0 100%;
     scroll-snap-align: start;
@@ -83,5 +83,8 @@ body {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+    }
+    .meme__text {
+        font-size: 1em;
     }
 }
